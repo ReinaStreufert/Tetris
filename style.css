@@ -1,0 +1,52 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	--block-margin: 5px;
+}
+.hidden {
+	width: 0px;
+	height: 0px;
+	padding: 0px;
+	margin: 0px;
+	visibility: hidden;
+}
+.content {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+}
+.ui {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.ui p {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+.ui h1 {
+	margin: 10px;
+	text-align: center;
+	font-size: 50px;
+	max-width: 100%;
+	overflow-wrap: break-word;
+}
+.content canvas {
+	width: 800px;
+	height: 800px;
+	margin-top: var(--block-margin);
+	margin-left: var(--block-margin);
+	background-color: black;
+}

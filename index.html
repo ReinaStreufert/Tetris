@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="content">
+			<div class="ui">
+				<img id="piece_icon_l_left" src="pieces/l_left.svg" width=128 height=128 class="hidden"></img>
+				<img id="piece_icon_l_right" src="pieces/l_right.svg" width=128 height=128 class="hidden"></img>
+				<img id="piece_icon_mountain" src="pieces/mountain.svg" width=128 height=128 class="hidden"></img>
+				<img id="piece_icon_square" src="pieces/square.svg" width=128 height=128 class="hidden"></img>
+				<img id="piece_icon_straight" src="pieces/straight.svg" width=128 height=128 class="hidden"></img>
+				<img id="piece_icon_zigzag_left"src="pieces/zigzag_left.svg" width=128 height=128 class="hidden"></img>
+				<img id="piece_icon_zigzag_right" src="pieces/zigzag_right.svg" width=128 height=128 class="hidden"></img>
+				<p>SCORE</p>
+				<h1 id="scoretext">0</h1>
+				<p>TIME</p>
+				<h1 id="timetext">00:00</h1>
+			</div>
+			<canvas id="canvas" width="800" height="800"></canvas>
+		</div>
+		<script src="settings.js" type="text/javascript"></script>
+		<script src="utils.js" type="text/javascript"></script>
+		<script src="board.js" type="text/javascript"></script>
+		<script src="pieces.js" type="text/javascript"></script>
+		<script src="draw.js" type="text/javascript"></script>
+		<script src="ui.js" type="text/javascript"></script>
+		<script src="game.js" type="text/javascript"></script>
+	</body>
+</html>
